@@ -26,6 +26,11 @@ public class ChangeLevelOnDelay : MonoBehaviour
         
     }
 
+    public void Quit()
+    {
+        Application.Quit();
+    }
+
     // Update is called once per frame
     void Update()
     {
