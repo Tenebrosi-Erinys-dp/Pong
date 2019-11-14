@@ -300,7 +300,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: b7e453d2341190f46ac8c05f30a5474c, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 8a07f041f3ee5a74c9e30348dcbc01fa, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -720,7 +720,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 321403367}
-  startingClip: {fileID: 8300000, guid: f84456cd68bda6c4e8feb0e2cee7ec4f, type: 3}
+  startingClip: {fileID: 8300000, guid: 5cc5eb4f019c8d649bc847b70171b4b1, type: 3}
   loopClip: {fileID: 8300000, guid: 57e6818caf16cfb4f83a2a99433225e1, type: 3}
 --- !u!82 &321403367
 AudioSource:
@@ -2546,7 +2546,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: b7e453d2341190f46ac8c05f30a5474c, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 8a07f041f3ee5a74c9e30348dcbc01fa, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
