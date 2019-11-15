@@ -645,7 +645,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 733b700e23ce27d4aa828475853a3e00, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 2deba82dbdac4b9418b91d306f46cbe4, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -743,7 +743,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f43ec3dd94f48e44a8a55289065c6517, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextLevel: PongScene
+  NextLevel: PongScene2
   Delay: 0.1
 --- !u!114 &1455060207
 MonoBehaviour:
@@ -894,7 +894,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: d47846c74bcf70c4697f3c2eca2a207e, type: 3}
+  m_audioClip: {fileID: 8300000, guid: c3c3da70e7907d0408dc1386c484870f, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
