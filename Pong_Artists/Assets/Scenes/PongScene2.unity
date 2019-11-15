@@ -1258,7 +1258,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.0966, y: 1.0966, z: 1.0966}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -2403,7 +2403,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: f74de520a7d8b67409d119372858b865, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a3d559c522703394e88882c44ec44e7a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2422,8 +2422,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1591683455}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 4, y: 4, z: 1}
+  m_LocalPosition: {x: 0.011, y: -0.031, z: 0}
+  m_LocalScale: {x: 14.365843, y: 14.365843, z: 14.365843}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -2462,9 +2462,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.005796958}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.16666704
 --- !u!114 &1591683460
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2541,7 +2541,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 77fb86025c2b6c34096e6bca8cfdd66e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 76ffcb49e02ccd746b4e049a8a33c2fb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2561,7 +2561,7 @@ Transform:
   m_GameObject: {fileID: 1625826899}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -38.246, y: 12.691, z: 0}
-  m_LocalScale: {x: 1.635, y: 1.646, z: 13.500001}
+  m_LocalScale: {x: 22.065569, y: 22.214024, z: 182.1928}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -2583,7 +2583,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.125, y: 10}
+    oldSize: {x: 0.09, y: 0.8}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2591,13 +2591,12 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.5625, y: 5}
-      - {x: -0.5625, y: -5}
-      - {x: 0.11768166, y: -4.982276}
-      - {x: 0.5478885, y: -0.38478035}
-      - {x: 0.5637819, y: -0.032085985}
-      - {x: 0.5471979, y: 0.4157174}
-      - {x: 0.20391248, y: 5.000001}
+    - - {x: 0.000020998334, y: 0.398812}
+      - {x: -0.044999998, y: 0.39999998}
+      - {x: -0.044999998, y: -0.39999998}
+      - {x: -0.0013112292, y: -0.39863294}
+      - {x: 0.044999428, y: -0.18045418}
+      - {x: 0.04290426, y: 0.18740164}
 --- !u!50 &1625826903
 Rigidbody2D:
   serializedVersion: 4
