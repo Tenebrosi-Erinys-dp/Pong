@@ -6,6 +6,7 @@ public class LampController : MonoBehaviour
 {
     public static List<Lamp> lampList = new List<Lamp>();
     float timer = 0;
+    int lampCount = 0;
     //Time it takes to toggle lamps
     public float swapTime = 1;
     private void Update()
@@ -14,10 +15,21 @@ public class LampController : MonoBehaviour
         if(timer >= swapTime)
         {
             timer = 0;
-            foreach(Lamp lamp in lampList)
+            for(int i = 0; i < lampList.Count; i++)
             {
-                lamp.Toggle();
-                print("lamp toggled");
+                if(i == lampCount)
+                {
+                    lampList[i].TurnOn();
+                }
+                else
+                {
+                    lampList[i].TurnOff();
+                }
+            }
+            lampCount++;
+            if(lampCount >= lampList.Count)
+            {
+                lampCount = 0;
             }
         }
     }

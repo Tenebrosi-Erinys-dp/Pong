@@ -36,4 +36,25 @@ public class Lamp : MonoBehaviour
             sr.color = offColor;
         }
     }
+
+    public bool IsOn()
+    {
+        return box.enabled;
+    }
+
+    public void TurnOn()
+    {
+        if (!box.enabled)
+        {
+            Toggle();
+        }
+    }
+
+    public void TurnOff()
+    {
+        if (box.enabled)
+        {
+            Toggle();
+        }
+    }
 }
