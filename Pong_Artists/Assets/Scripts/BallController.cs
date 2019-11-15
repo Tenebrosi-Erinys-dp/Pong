@@ -24,8 +24,6 @@ public class BallController : MonoBehaviour
         ballRef = this;
     }
 
-
-
     public void ThrowBall ()
     {
         //x calculated to avoid up and down only

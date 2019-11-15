@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: e0a6e51b029103448a7b106d05ca5dc4
+=======
+guid: de4bf2d5703db814b91e82131e8af922
+>>>>>>> Applied visuals to main menu and playspace
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

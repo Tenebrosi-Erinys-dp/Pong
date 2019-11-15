@@ -4,18 +4,22 @@ using UnityEngine;
 
 public class Lamp : MonoBehaviour
 {
-    BoxCollider2D box;
+    PolygonCollider2D box;
     SpriteRenderer sr;
+    public Sprite onSprite;
+    public Sprite offSprite;
     Color onColor;
     Color offColor;
     private void Start()
     {
-        box = GetComponent<BoxCollider2D>();
+        box = GetComponent<PolygonCollider2D>();
         LampController.lampList.Add(this);
         sr = GetComponent<SpriteRenderer>();
-        onColor = new Color(252f / 255, 186f / 255, 0);
-        offColor = new Color(36f / 255, 0, 252f / 255);
-        sr.color = onColor;
+        sr.sprite = offSprite;
+        onColor = sr.color;
+        offColor = onColor;
+        offColor.a /= 2;
+        sr.color = offColor;
     }
 
     public void Toggle()
@@ -23,13 +27,13 @@ public class Lamp : MonoBehaviour
         box.enabled = !box.enabled;
         if (box.enabled)
         {
+            sr.sprite = onSprite;
             sr.color = onColor;
-            print("Turning on");
         }
         else
         {
+            sr.sprite = offSprite;
             sr.color = offColor;
-            print("Turning off");
         }
     }
 }
